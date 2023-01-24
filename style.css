@@ -1,0 +1,301 @@
+body{
+    background-image: linear-gradient(to bottom, black, darkgrey);
+    color: black;
+    font-family: tahoma, Arial, sans-serif;
+    
+}
+
+header{
+    color: black;
+    background: url(images/20220421_021516.jpg) no-repeat;
+    background-color: lightgray;
+    
+    padding-left: 430px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid blue;
+    border-radius: 20px;
+    text-shadow: 2px 2px 5px lightcoral;
+}
+
+audio{
+    display: block;
+    margin-top: 1em;
+}
+
+#feedingTable{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    color: black;
+    font-size: 1.8em;
+    text-align: center;
+}
+h3{
+    color: black;
+}
+dt{
+    color: black;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    display: block;
+    border: 5px solid grey;
+    border-radius: 15px;
+    color: #FEFAEB;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+nav a:visited{
+    color: grey;
+}
+
+nav a:hover{
+    background-color: lightblue;
+    background-image: url(image/light.gif);
+    background-repeat: no-repeat;
+    background-position: right -100px;
+    color: black;
+}
+
+#gallery
+{
+    flex-flow: column wrap;
+    height: 400px;
+    align-items: flex-start;
+}
+
+.launchButton{
+    text-decoration: none;
+    background-color: black;
+    display: block;
+    border: 5px solid black;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    width: 20%;
+
+    margin: 5px;
+}
+
+a:focus{
+    color: lightblue ;
+}
+
+a:hover{
+    color: grey;
+    box-shadow: 1px 1px 1px burlywood;
+}
+
+a:active{
+    color: grey;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    background-color: darkblue;
+    padding-right: 25px;
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    margin: 1em;
+
+}
+
+nav ul li{
+    padding: 0.5em;
+}
+
+
+
+footer{
+    background-color: lightgray;
+    font-size: 0.80em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+    border-top: 2px grey;
+    border-radius: 1em;
+}
+
+#wrapper{
+    background-color: darkblue;
+    margin: auto;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+    box-shadow: 5px 10px;
+    border-radius: 2em;
+}
+
+#windDirection_CenterBodyText{
+    text-align: center;
+}
+h4{
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+}
+
+p{
+    display: inline-block;
+    width: auto;
+}
+
+main{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    display: block;
+    margin: 2em;
+    margin-bottom: 2em;
+    overflow: auto;
+    background-color: #D2B48C;
+    border-radius: 1em;
+}
+
+#floatingMugs{
+    float: right;    
+    margin: 0 0 0 0px;
+}
+
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border-radius: 4em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border-radius: 3em; */
+    
+}
+
+ul{
+    align-content: center;
+}
+
+div.centerList{
+    text-align: center;
+}
+ul.pearlyList{
+    display: inline-block;
+    text-align: left;
+}
+
+table{
+    width: 20%;
+}
+td{
+    text-align: center;
+}
+
+form, fieldset{
+    border-radius: 3em;
+    border: 1em solid blue;
+    margin: 2em;
+    padding: 2em;
+}
+
+fieldset{
+    border-radius: 2em;
+    border: 0.5em solid blue;
+    margin: 2em;
+    padding: 2em;
+}
+#comments{
+    width: 100%;
+    height: 10em;
+    border-radius: 1.5em;
+}
+
+#homehero{
+    height: 300px;
+    background: url("images/heromugs.jpg") no-repeat;
+    background-size: cover;
+}
+
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 1024px){
+    body{
+        margin: 0;
+    }
+
+    #wrapper{
+        width: auto;
+    }
+    nav{
+        float: none;
+        width: auto;
+    }
+    nav li{
+        display: block;
+        padding: 0.5em;
+    }
+    header
+    {
+        font-size: 120%;
+        padding-left: 300px;
+    }
+    p{
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 830px){
+
+    figure{
+        display: none;
+    }
+
+    header{
+        display: none;
+    }
+
+    fieldset{
+        /* margin: ; */
+        padding: 1em;
+    }
+
+    legend{
+        display: none;
+    }
+} 
+
