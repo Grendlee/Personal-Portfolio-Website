@@ -185,6 +185,24 @@ main{
     padding-right: 20%;
 }
 
+.button-container {
+    display: flex;
+    gap: 10px; /* Adds spacing between buttons */
+}
+
+.launchButton {
+    text-decoration: none;
+    background-color: #4CAF50; /* Change this to your preferred button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.launchButton:hover {
+    background-color: #45a049;
+}
+
+
 img{
     padding-top: 20px;
     padding-bottom: 20px;
