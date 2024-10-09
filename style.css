@@ -4,6 +4,11 @@ body{
     font-family: tahoma, Arial, sans-serif;
     
 }
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
 
 header{
     color: black;
@@ -257,10 +262,6 @@ fieldset{
 }
 
 
-.button-container {
-    display: flex;
-    gap: 10px;
-}
 
 
 
