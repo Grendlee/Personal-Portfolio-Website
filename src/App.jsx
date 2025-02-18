@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from './components/Hero';
 import Navbar from './components/Navbar'
+import PictureGallery from './components/PictureGallery';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <div className="mx-auto px-8">
         <Navbar />
         <Hero />
+        <PictureGallery />
       </div>
     </div>
 
