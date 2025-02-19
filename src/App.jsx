@@ -2,6 +2,9 @@ import React from 'react'
 import Hero from './components/Hero';
 import Navbar from './components/Navbar'
 import PictureGallery from './components/PictureGallery';
+import Projects from './components/Projects';
+import Tech from './components/Certifications';
+import Certifications from './components/Certifications';
 
 
 const App = () => {
@@ -16,6 +19,8 @@ const App = () => {
       <div className="mx-auto px-8">
         <Navbar />
         <Hero />
+        <Certifications />
+        <Projects />
         <PictureGallery />
       </div>
     </div>

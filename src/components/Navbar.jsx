@@ -1,25 +1,67 @@
-// i used the racfe snippet to create this function
-
-import logo from "../assets/kevinRushLogo.png"
-import React from 'react'
-import { FaLinkedin} from "react-icons/fa"
+import React from "react";
+import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import { FaEnvelope } from "react-icons/fa";
+import { motion } from "framer-motion";
 
+const iconShake = {
+  animate: {
+    rotate: [0, -18, 18, -18, 18, 0],
+    transition: { repeat: Infinity, duration: 1.5 },
+  },
+};
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between"> 
+    <nav className="mb-20 flex items-center justify-between px-10 py-5"> 
         <div className="flex flex-shrink-0 items-center text-3xl font-light">
-            {/*<img className="mx-2 w-10" src={logo} alt="logo"/> */}
+            {/* Logo or Name */}
             Grendlee
         </div>
-        <div className="m-8 flex items-center justify-center gap-4 text-3xl">
-            <FaLinkedin />
+        
+
+            
+        {/* Social Icons (Aligned to the Right) */}
+
+        
+        <div className="text-blue-600 flex items-center gap-6 text-3xl">
+            {/* Email (Always Shaking + "Email me!") */}
+            <a
+                href="mailto:grantley_kuo@sfu.ca"
+                className="flex items-center gap-2 hover:brightness-150 transition duration-300"
+                >
+                <motion.div animate="animate" variants={iconShake}>
+                    <FaEnvelope className="text-5xl"/>
+                </motion.div>
+                <span className="text-xl font-medium">Email me here!</span>
+            </a>
+            
+            {/* LinkedIn */}
+            <a
+                href="https://www.linkedin.com/grantleyk"
+                className="flex items-center gap-2 hover:brightness-150 transition duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <FaLinkedin />
+                <span className="text-xl font-medium">LinkedIn</span>
+            </a>
+
+            {/* GitHub */}
+            <a
+            href="https://github.com/grendlee"
+            className="flex items-center gap-2 hover:brightness-150 transition duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
             <FaGithub />
-        </div>
+            <span className="text-xl font-medium">GitHub</span>
+            </a>
 
+        
+      </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
