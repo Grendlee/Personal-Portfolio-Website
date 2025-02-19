@@ -38,7 +38,7 @@ const Navbar = () => {
             
             {/* LinkedIn */}
             <a
-                href="https://www.linkedin.com/grantleyk"
+                href="https://www.linkedin.com/in/grantleyk/"
                 className="flex items-center gap-2 hover:brightness-150 transition duration-300"
                 target="_blank"
                 rel="noopener noreferrer"

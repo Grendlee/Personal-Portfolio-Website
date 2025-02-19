@@ -26,7 +26,7 @@ export const PROJECTS = [
     title: "Multithreaded MapReduce Framework",
     description:
       "Developed a multithreaded MapReduce framework in C, enabling parallel processing of large datasets with mutex-based synchronization.",
-    github: "https://github.com/yourusername/mapreduce-framework",
+    github: "https://github.com/Grendlee/map-reduce-framework-in-C",
     technologies: ["C", "Multithreading", "Synchronization"],
     image: project3,
   },
@@ -34,7 +34,7 @@ export const PROJECTS = [
     title: "Audio-Visual Signal Plotting Application",
     description:
       "Created a GUI-based audio visualization tool using Python’s tkinter and PIL for waveform and BMP image rendering.",
-    github: "https://github.com/yourusername/audio-visual-plotter",
+    github: "https://github.com/Grendlee/Audio-Image-Plotter",
     technologies: ["Python", "tkinter", "PIL"],
     image: project4,
   },
@@ -50,7 +50,7 @@ export const PROJECTS = [
     title: "Pathfinding Rescue Bot",
     description:
       "Designed an AI bot in Java with an optimized pathfinding algorithm for navigating randomly generated disaster zones.",
-    github: "https://github.com/yourusername/rescue-bot",
+    github: "https://github.com/Grendlee/Disaster-Zone-Bot",
     technologies: ["Java", "Pathfinding Algorithms", "AI"],
     image: project2,
   },
@@ -58,7 +58,7 @@ export const PROJECTS = [
     title: "Efficient Hotel Reservation System",
     description:
       "Built a hotel reservation system in C++ using a doubly linked list and a queue-based approach for O(1) booking operations.",
-    github: "https://github.com/yourusername/hotel-reservation",
+    github: "https://github.com/Grendlee/Hotel-Reservations",
     technologies: ["C++", "Doubly Linked List", "Queue"],
     image: project3,
   },
@@ -82,7 +82,7 @@ export const PROJECTS = [
     title: "Household Power Consumption Data Processing",
     description:
       "Designed an R-based pipeline for cleaning and analyzing a 2M+ row household energy dataset, using Z-score anomaly detection.",
-    github: "https://github.com/yourusername/energy-analysis",
+    github: "https://github.com/Grendlee/Household-Power-Consumption-Data-Processing",
     technologies: ["R", "Data Processing", "Statistics"],
     image: project2,
   },
