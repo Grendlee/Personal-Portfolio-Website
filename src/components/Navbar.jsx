@@ -14,7 +14,7 @@ const iconShake = {
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between px-10 py-5"> 
-        <div className="flex flex-shrink-0 items-center text-3xl font-light">
+        <div className="flex flex-shrink-0 items-center pr-4 text-3xl font-light">
             {/* Logo or Name */}
             Grendlee
         </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <motion.div animate="animate" variants={iconShake}>
                     <FaEnvelope className="text-5xl"/>
                 </motion.div>
-                <span className="text-xl font-medium">Email me here!</span>
+                <span className="hidden sm:block text-xl font-medium whitespace-nowrap">Email me here!</span>
             </a>
             
             {/* LinkedIn */}
@@ -44,7 +44,7 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 >
                 <FaLinkedin />
-                <span className="text-xl font-medium">LinkedIn</span>
+                <span className="hidden sm:block text-xl font-medium">LinkedIn</span>
             </a>
 
             {/* GitHub */}
@@ -55,7 +55,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             >
             <FaGithub />
-            <span className="text-xl font-medium">GitHub</span>
+            <span className="hidden md:block text-xl font-medium">GitHub</span>
             </a>
 
         

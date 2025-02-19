@@ -23,7 +23,7 @@ const Certifications = () => {
             <img 
               src={badge} 
               alt="Microsoft Certified Fundamentals Badge" 
-              className="w-40 h-auto hover:brightness-150 transition duration-300"
+              className="w-40 h-auto hover:brightness-125 transition duration-300"
             />
           </a>
         </div>
