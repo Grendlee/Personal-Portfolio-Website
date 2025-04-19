@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import pic1 from "../assets/gallery1_compressed.jpeg";
+import pic1 from "../assets/gallery1_compressed.jpg";
 import pic4 from "../assets/gallery2_compressed.jpg";
 import pic3 from "../assets/gallery3_compressed.jpg";
 import pic2 from "../assets/gallery4_Compressed.jpg";
