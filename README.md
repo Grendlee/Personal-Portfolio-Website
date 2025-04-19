@@ -27,6 +27,11 @@ This is my modern tech portfolio designed to showcase my projects, skills in sof
    ```
 5. Open `http://localhost:5173/` in your browser.
 
+##  Updating Website Contents
+
+1. Push changes
+2. npm run deploy
+
 
 
 
