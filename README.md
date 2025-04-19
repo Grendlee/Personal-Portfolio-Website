@@ -16,13 +16,7 @@ This is my modern tech portfolio designed to showcase my projects, skills in sof
 
 ##  Installation & Usage
 1. Clone this repository:
-   ```sh
-   git clone https://github.com/Grendlee/Modern-Tech-Portfolio.git
-   ```
 2. Navigate into the project folder:
-   ```sh
-   cd Modern-Tech-Portfolio
-   ```
 3. Install dependencies:
    ```sh
    npm install
