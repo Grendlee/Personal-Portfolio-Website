@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
-import pic1 from "../assets/gallery1.jpeg";
-import pic4 from "../assets/gallery2.jpg";
-import pic3 from "../assets/gallery3.jpg";
-import pic2 from "../assets/gallery4.jpg";
+import pic1 from "../assets/gallery1_compressed.jpeg";
+import pic4 from "../assets/gallery2_compressed.jpg";
+import pic3 from "../assets/gallery3_compressed.jpg";
+import pic2 from "../assets/gallery4_Compressed.jpg";
 
 // Image Array
 const images = [pic1, pic2, pic3, pic4];

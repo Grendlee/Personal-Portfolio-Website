@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typewriter } from "react-simple-typewriter";
 import { HERO_CONTENT } from '../constants';
-import profilePic from "../assets/me.jpg";
+import profilePic from "../assets/me_compressed.jpg";
 
 const Hero = () => {
   return (
