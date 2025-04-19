@@ -25,10 +25,12 @@ This is my modern tech portfolio designed to showcase my projects, skills in sof
    ```sh
    npm run dev
    ```
-5. Open `http://localhost:5173/` in your browser.
-
+5. To open in your browser.
+   ```sh
+   http://localhost:5173/`
+   ```
+   
 ##  Updating Website Contents
-
 1. Push changes
 2. Deploy the development server:
     ```sh
