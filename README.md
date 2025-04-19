@@ -27,7 +27,7 @@ This is my modern tech portfolio designed to showcase my projects, skills in sof
    ```
 5. To open in your browser.
    ```sh
-   http://localhost:5173/`
+   http://localhost:5173/
    ```
    
 ##  Updating Website Contents
