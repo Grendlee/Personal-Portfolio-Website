@@ -26,6 +26,9 @@ const App = () => {
         <Certifications />
         <Projects />
         <PictureGallery />
+        <main className="pt-28 px-10"></main>
+        
+        
       </div>
     </div>
 

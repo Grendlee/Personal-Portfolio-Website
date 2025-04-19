@@ -5,8 +5,8 @@ import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div className="border-t border-neutral-800 pb-24 my-14">
-      <h1 className="my-20 text-center text-4xl">Projects</h1>
+    <div className="border-t border-neutral-800 my-14">
+      <h1 className="my-10 text-center text-4xl">Projects</h1>
 
       <div>
         {PROJECTS.map((project, index) => (
