@@ -18,6 +18,10 @@ const App = () => {
       
       <div className="mx-auto px-8">
         <Navbar />
+
+        {/* padding for hero content so that hero content is not under Navbar*/}
+        <main className="pt-28 px-10"></main>
+
         <Hero />
         <Certifications />
         <Projects />

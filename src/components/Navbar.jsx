@@ -13,8 +13,8 @@ const iconShake = {
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between px-10 py-5"> 
-        <div className="flex flex-shrink-0 items-center pr-4 text-3xl font-light">
+      <nav className="fixed top-0 left-0 w-full z-50 bg-gray-100 shadow-md flex justify-between items-center px-10 py-1">
+        <div className="flex flex-shrink-0 items-center pr-4 text-2xl font-light">
             {/* Logo or Name */}
             Grendlee
         </div>
