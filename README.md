@@ -30,8 +30,10 @@ This is my modern tech portfolio designed to showcase my projects, skills in sof
 ##  Updating Website Contents
 
 1. Push changes
-2. npm run deploy
-
+2. Deploy the development server:
+    ```sh
+    npm run deploy
+    ```
 
 
 
