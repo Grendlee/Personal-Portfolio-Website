@@ -3,7 +3,13 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I’m a Software Systems student at Simon Fraser University from Vancouver with a strong passion for technology. In my free time, I enjoy discovering new cycling routes and keeping my car in top condition—inside and out.`;
+export const HERO_CONTENT = `I'm a Fourth-year Software Systems student at Simon Fraser University.
+
+Experienced in C++, Python, Java, JavaScript, React, and Typescript, with focus on building reliable and maintainable software.
+
+I enjoy collaborating in team environments, taking ownership of features, and solving complex technical problems.
+
+Currently seeking Software Engineering internship opportunities for Summer 2026 and beyond.`;
 
 export const PROJECTS = [
   // {
